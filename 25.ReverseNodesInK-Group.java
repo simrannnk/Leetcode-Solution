@@ -2,7 +2,6 @@ class Solution {
     
     public int length(ListNode head)
     {
-
         ListNode curr=head;
         int len=0;
         while(curr!=null)
@@ -13,11 +12,7 @@ class Solution {
         
         return len;
     }
-    
-    public void addFirst(ListNode head)
-    {
-        
-    }
+
     public ListNode reverseKGroup(ListNode head, int k) {
         
     if(head.next==null || k==1)
